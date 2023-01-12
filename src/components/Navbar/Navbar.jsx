@@ -11,7 +11,7 @@ function Head() {
                         <Navbar.Brand>Shoe</Navbar.Brand>
                     </Link>
                     <Nav className="ms-auto">
-                        <Link to={'/launch'}><Nav.Link >Launch</Nav.Link></Link>
+                        <Link to={'/launch'}>Launch</Link>
                     </Nav>
                 </Container>
             </Navbar>

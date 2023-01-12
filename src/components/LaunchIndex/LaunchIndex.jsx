@@ -9,10 +9,10 @@ function LaunchIndex() {
         <Row>
           <div className={`${card.main_card} flex  space_between flex_wrape gap`}>
             {
-              Object.entries(shoes).map(([id, value]) => {
-                let { name, img} = value;
+              shoes.map((elem,index) => {
+                let { name, img,id} = elem;
                 return (
-                  <Col key={id} sm={12} md={6} lg={3}>
+                  <Col key={index} sm={12} md={6} lg={3}>
                     <Card style={{ width: '18rem' }} >
                       <Card.Img variant="top" src={img} style={{ height: '15rem' }} />
                       <Card.Body>

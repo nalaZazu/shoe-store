@@ -15,10 +15,9 @@ function App() {
         <Head />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path="launch" element={<Launch />}>
+          {/* <Route path="launch" element={<Launch />}/> */}
             <Route path="/launch" element={<LaunchIndex />} />
-            <Route path=':id' element={<LaunchShoes />} />
-          </Route>
+            <Route path='/launch/:id' element={<LaunchShoes />} />
         </Routes>
       </BrowserRouter>
     </div>

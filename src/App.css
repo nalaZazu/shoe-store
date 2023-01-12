@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* flexbox */
+.flex {
+  display: flex;
+}
+
+.space_between {
+  justify-content: space-between;
+}
+
+.space_center {
+  justify-content: center;
+}
+
+.item_center {
+  align-items: center;
+}
+
+.flex_wrape {
+  flex-wrap: wrap;
+
+}
+
+.gap {
+  gap: 1rem;
+}
